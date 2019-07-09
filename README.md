@@ -44,5 +44,39 @@ Konlpy.Okt의 pos 함수를 사용해 문장들을 품사 태깅함
 
 
 
+### 5. 사용법
 
+1. python 라이브러리 설치
+
+   ```bash
+   pip install gensim
+   pip install tensorflow
+   pip install konlpy
+   ```
+
+2. Word2Vec 학습
+
+   ```bash
+   python Word2vec_train.py
+   ```
+
+3. 모델 학습
+
+   ```bash
+   python BiLSTM_train.py
+   ```
+
+4. 모델 성능 검증
+
+   ```bash
+   python BiLSTM_test.py
+   ```
+
+5. 모델 테스트
+
+   ```bash
+   python Test.py
+   ```
+
+   
 
